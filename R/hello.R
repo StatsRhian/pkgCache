@@ -2,7 +2,6 @@
 #' Test function
 #' @export
 hello = function() {
-  datasets::mtcars |>
-    dplyr::distinct()
+  dplyr::distinct(datasets::mtcars)
   print("Data Science rules")
 }
