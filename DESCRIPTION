@@ -12,5 +12,7 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
-URL: https://github.com/StatsRhian/pkgCache
+URL: https://github.com/StatsRhian/pkgCache, https://statsrhian.github.io/pkgCache/
 BugReports: https://github.com/StatsRhian/pkgCache/issues
+Imports: 
+    dplyr (>= 1.1.0)
